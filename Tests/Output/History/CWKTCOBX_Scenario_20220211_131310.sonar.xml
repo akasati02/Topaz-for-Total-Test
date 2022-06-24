@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?totaltestVersion 20.9.3.qualifier?>
+<!--Topaz for Total Test 20.9.3.qualifier Feb 11, 2022 1:13:10 PM-->
+<testExecutions version="1">
+  <file path="C:\runtime\TotalTest-2009\CWKTCOBX\Tests\Scenarios\CWKTCOBX_Scenario.testscenario">
+    <testCase name="Unit Test: Test Case: CWKTCOBXCase1 for program: CWKTCOBX" duration="0" />
+  </file>
+</testExecutions>

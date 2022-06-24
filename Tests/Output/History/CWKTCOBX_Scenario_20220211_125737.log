@@ -1,0 +1,41 @@
+12:57:19.770 INFO      TOPAZ            ***************************************
+12:57:19.771 INFO      TOPAZ            ** Execution from Topaz with options **
+12:57:19.771 INFO      TOPAZ            ***************************************
+12:57:19.771 INFO      TOPAZ            Using repository: false
+12:57:19.771 INFO      TOPAZ            ***************************************
+12:57:19.772 INFO      Engine           Test Scenario execution started
+12:57:19.772 INFO      Engine           Using context settings:
+  Engine Version                : 20.9.3.qualifier
+  Environment id                : 10.100.4.82:16196
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : 10.100.4.82
+  Server port                   : 16196
+  Job execution timeout seconds : 600
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : 
+  Host user Id                  : TTDEVREG
+  Use Repository Server         : false
+12:57:19.772 INFO      Engine           Setting variables from context and context data extensions
+12:57:19.772 INFO      Engine             id: environmentId      value: 10.100.4.82:16196
+12:57:19.772 INFO      Engine             id: environmentType    value: BATCH
+12:57:19.772 INFO      Engine             id: userId             value: TTDEVREG
+12:57:19.772 INFO      Engine             id: accountingInfo     value: 
+12:57:19.772 INFO      Engine             id: envname            value: Test
+12:57:19.772 INFO      Engine             id: level              value: PDSE
+12:57:19.773 INFO      Unittest         Interpreting Unittest of module: CWKTCOBX testscenario path: CWKTCOBX_Scenario.testscenario
+12:57:19.778 INFO      Unittest         Using JCL skeleton to submit JCL
+12:57:27.922 INFO      10.100.4.82:16196 Sending Job execution request to Host 
+12:57:33.610 INFO      10.100.4.82:16196 Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job TTDEVREA(J0621874) ended with return code: 0000
+  Job name       : TTDEVREA
+  Job id         : J0621874
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+12:57:37.493 INFO      Unittest         Execution completed
+12:57:37.493 INFO      Engine           Test Scenario execution ended
