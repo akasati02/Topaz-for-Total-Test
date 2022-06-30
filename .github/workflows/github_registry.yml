@@ -38,7 +38,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: ./ 
-          file: ./Dockerfile
+          file: ./Dockerfile.txt
           builder: ${{ steps.buildx.outputs.name }}
           push: true
           tags: ghcr.io/akasati02/simplewhale:latest
