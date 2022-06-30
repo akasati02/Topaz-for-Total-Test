@@ -41,7 +41,7 @@ jobs:
           file: ./Dockerfile
           builder: ${{ steps.buildx.outputs.name }}
           push: true
-          tags: ghcr.io/akasati02/Topaz-for-Total-Test:latest
+          tags: ghcr.io/akasati02/simplewhale:latest
           cache-from: type=local,src=/tmp/.buildx-cache
           cache-to: type=local,dest=/tmp/.buildx-cache
       -
