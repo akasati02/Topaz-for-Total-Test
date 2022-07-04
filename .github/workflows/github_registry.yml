@@ -3,7 +3,6 @@ name: CI to GHCR
 on:
   push:
     branches: [ main ]
-
 jobs:
 
   build:
