@@ -10,6 +10,9 @@ jobs:
   build:
     runs-on: self-hosted
     steps:
+      -
+        name: Display the path
+        run: C://Topaz//topazworkbenchcli.20.12.01.39
       - 
         name: Checkout
         uses: actions/checkout@v2
