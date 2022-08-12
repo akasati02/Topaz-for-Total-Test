@@ -8,6 +8,9 @@ jobs:
   build:
     runs-on: self-hosted
     steps:
+      -
+        name: Display the path
+        run: echo "$HOME/.local/bin" >> $GITHUB_PATH
       - 
         name: Checkout
         uses: actions/checkout@v2
