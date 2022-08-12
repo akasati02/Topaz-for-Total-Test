@@ -12,7 +12,7 @@ jobs:
     steps:
       -
         name: Display the path
-        run: C://Topaz//topazworkbenchcli.20.12.01.39
+        run: echo "$HOME/.local/bin" >> $GITHUB_PATH
       - 
         name: Checkout
         uses: actions/checkout@v2
